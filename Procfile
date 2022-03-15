@@ -1,0 +1,1 @@
+web: gunicorn LabyrinthMusicBackend.wsgi --log-file -
