@@ -136,14 +136,14 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.2/howto/static-files/\
  
 
-CLOUDINARY_STORAGE = {
-    'CLOUD_NAME': "qdubs",
-    'API_KEY': "534433378484339",
-    'API_SECRET': "X1qovtHSZ7VwvMhq00e8chxt6_c",
-}
+# CLOUDINARY_STORAGE = {
+#     'CLOUD_NAME': "qdubs",
+#     'API_KEY': "534433378484339",
+#     'API_SECRET': "X1qovtHSZ7VwvMhq00e8chxt6_c",
+# }
 
-DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
- 
+# DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
+
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
